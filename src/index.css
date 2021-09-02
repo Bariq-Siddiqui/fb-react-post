@@ -1,0 +1,48 @@
+.main-div{
+  margin-top: 2% !important;
+  padding: 2%;
+  width: 40%;
+  margin: auto;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px 5px silver;
+}
+.name{
+  font-size: 1.2em;
+}
+.img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.time{
+  margin-left: 15%;
+}
+.imgIcon{
+  width: 25px;
+  padding-left: 12%;
+  padding-right: 2%;
+}
+.icon{
+  padding-left: 12%;
+  padding-right: 2%;
+}
+.bottomDiv{
+  border-top: 1px solid black;
+}
+@media screen and (max-width: 600px) {
+  .main-div{
+  width: 80%;
+  }
+  .time{
+    margin-left: 29%;
+  }
+  .imgIcon{
+    width: 25px;
+    padding-left: 3%;
+    padding-right: 2%;
+  }
+  .icon{
+    padding-left: 3%;
+    padding-right: 2%;
+  }
+}
